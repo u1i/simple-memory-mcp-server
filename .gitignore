@@ -1,0 +1,49 @@
+# Python Virtual Environment
+bin/
+include/
+lib/
+pyvenv.cfg
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Database files (user data - exclude from git)
+*.db
+*.sqlite
+*.sqlite3
+user_memory.db
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# Screenshots folder should be included in git
+# (no entry needed - it will be tracked by default)
