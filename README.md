@@ -10,8 +10,6 @@ This project shows how to build a basic memory system for LLMs using MCP. It's d
 
 *Note: This is an educational setup focused on demonstrating MCP concepts, not a production-ready solution.*
 
-![](cl02.png)
-
 ## What You'll Learn
 
 This project demonstrates:
@@ -204,8 +202,6 @@ And get back all your information in one simple list. No complex filtering, no m
 ## How to Use with Claude AI Desktop
 
 Once your server is running and Claude AI Desktop has been restarted, you can interact with your `add` tool.
-
-![](cl01.png)
 
 1.  **Open Claude AI Desktop.**
 2.  **Start a new conversation.**
