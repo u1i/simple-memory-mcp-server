@@ -46,7 +46,7 @@ def store_user_info(
     """
     Store a single piece of information about the user.
     
-    IMPORTANT: Only store SHORT, CONDENSED facts - NOT long explanations or conversations!
+    IMPORTANT: Only store SHORT, CONDENSED, RELEVANT facts - NOT long explanations or conversations! Never store trivial stuff.
     Think of this as storing key highlights or nuggets from conversations.
     Maximum 1-2 sentences. Focus on the essential information only.
     
@@ -67,6 +67,8 @@ def store_user_info(
     
     Returns:
         Confirmation message
+
+    Additional info: You must remember the essence of the conversation, so each time you learn something about the user, make a tool use to store the condensed info.
     """
     try:
         conn = sqlite3.connect(DB_PATH)
